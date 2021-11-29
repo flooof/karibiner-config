@@ -1,0 +1,56 @@
+{:devices {:dell [{:vendor_id 16700 :product_id 12316}]}
+
+ :main [{:des "homerow"
+         :rules [[:!Pl :right_arrow]
+                 [:!Pk :down_arrow]
+                 [:!Pj :left_arrow]
+                 [:!Pi :up_arrow]
+                 [:!Po :end]
+                 [:!Pu :home]
+                 [:!Ph :page_down]
+                 [:!Py :page_up]
+                 [:!Psemicolon :delete_or_backspace]
+                 [:!Pgrave_accent_and_tilde :button1]]}
+
+        {:des "swipes"
+         :rules [[:keypad_comma :!Tleft_arrow]
+                 [:keypad_equal_sign :!Tright_arrow]]}
+
+        {:des "fn lock"
+         :rules [[:!Fescape ["fn-lock" 0] ["fn-lock" 1]]
+                 [:!Fescape ["fn-lock" 1] ["fn-lock" 0]]
+                 [:f1 :f1 ["fn-lock" 1]]
+                 [:f2 :f2 ["fn-lock" 1]]
+                 [:f3 :f3 ["fn-lock" 1]]
+                 [:f4 :f4 ["fn-lock" 1]]
+                 [:f5 :f5 ["fn-lock" 1]]
+                 [:f6 :f6 ["fn-lock" 1]]
+                 [:f7 :f7 ["fn-lock" 1]]
+                 [:f8 :f8 ["fn-lock" 1]]
+                 [:f9 :f9 ["fn-lock" 1]]
+                 [:f10 :f10 ["fn-lock" 1]]
+                 [:f11 :f11 ["fn-lock" 1]]
+                 [:f12 :f12 ["fn-lock" 1]]]}
+
+        {:des "dell"
+         :rules [:dell
+                 [:tab :e]
+                 [:!Ptab :tab]]}
+
+]}
+
+
+;; !  | means mandatory
+;; #  | means optional
+;; C  | left_command
+;; T  | left_control
+;; O  | left_option
+;; S  | left_shift
+;; F  | fn
+;; Q  | right_command
+;; W  | right_control
+;; E  | right_option
+;; R  | right_shift
+;; P  | caps_lock
+;; !! | mandatory command + control + optional + shift (hyper)
+;; ## | optional any

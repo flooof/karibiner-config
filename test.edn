@@ -1,0 +1,55 @@
+{:main [{:des "a to 1" :rules [[:a :1]]}
+        {:des "b to 2" :rules [[:b :2]]}
+        {:des "c to insert 123" :rules [[:c [:1 :2 :3]]]}
+        {:des "simultaneous j l press to F19" :rules [[[:j :l] :f19]]}
+        {:des "command a to control 1" [:!Ca :!T1]}
+        {:des "hyper 1 to cleanup personal folder"
+         :rules [[:!!1 ["rm -r ~/personal" "mkdir ~/personal"]]]}]}
+
+;; [:a :1] -- [<from> <to>]
+;; [:c [:1 :2 :3]] -- [<from> [<to> <to>]]
+
+
+
+
+{:applications {:chrome ["^com\\.google\\.Chrome$"]}
+ :devices {:hhkb-bt [{:vendor_id 1278 :product_id 51966}]}
+ :main [{:des "a to 1 only in chrome and using hhkb" :rules [[:a :1 [:chrome :hhkb-bt]]]}]}
+
+;; osascript -e 'id of app "Google Chrome"'
+
+;; [:a :1 :chrome] -- [<from> <to> <conditions>]
+
+{:simlayers {:period-mode {:key :period}}
+ :layers {:period-mode {:key :period}}
+ :main [{:des "period mode"
+         :rules [[:d :!S9 :period-mode]
+                 [:f :!S0 :period-mode]
+                 [:a [:!Sgrave_accent_and_tilde :slash] :period-mode]
+                 [:s [:period :!S8] :period-mode]]}]}
+
+;; Basically, if you type fast, use simlayer, otherwise, use the old layer
+
+
+;; homebrew | /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+;; karibiner | https://karabiner-elements.pqrs.org
+;; Goku | brew install yqrashawn/goku/goku
+;; Goku Tutoriol | https://github.com/yqrashawn/GokuRakuJoudo/blob/master/tutorial.md
+;; Examples | https://github.com/search?q=Karabiner.edn&type=code
+
+
+
+;; !  | means mandatory
+;; #  | means optional
+;; C  | left_command
+;; T  | left_control
+;; O  | left_option
+;; S  | left_shift
+;; F  | fn
+;; Q  | right_command
+;; W  | right_control
+;; E  | right_option
+;; R  | right_shift
+;; P  | caps_lock
+;; !! | mandatory command + control + optional + shift (hyper)
+;; ## | optional any
