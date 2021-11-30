@@ -31,13 +31,6 @@
 ;; Basically, if you type fast, use simlayer, otherwise, use the old layer
 
 
-;; homebrew | /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-;; karibiner | https://karabiner-elements.pqrs.org
-;; Goku | brew install yqrashawn/goku/goku
-;; Goku Tutoriol | https://github.com/yqrashawn/GokuRakuJoudo/blob/master/tutorial.md
-;; Examples | https://github.com/search?q=Karabiner.edn&type=code
-
-
 
 ;; !  | means mandatory
 ;; #  | means optional
