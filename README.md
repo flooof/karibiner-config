@@ -21,4 +21,4 @@ Goku Install | brew install yqrashawn/goku/goku
 
 Goku Tutoriol | https://github.com/yqrashawn/GokuRakuJoudo/blob/master/tutorial.md
 
-Examples | https://github.com/search?q=Karabiner.edn&type=code
+Examples | https://github.com/search?l=edn&q=Karabiner.edn&type=Code
