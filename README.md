@@ -1,6 +1,6 @@
-# karibiner-config
+# Karibiner Config
 
-## config for karibiner
+## Config for karibiner
 
 
 
