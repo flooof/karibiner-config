@@ -1,24 +1,24 @@
 # karibiner-config
 
-config for karibiner
+##config for karibiner
 
 
 
-karbiner.edn is my goku config
+######karbiner.edn is my goku config
 
-test.edn is stuff to help you get started
+######test.edn is stuff to help you get started
 
-karibiner is my karibiner config 
+######karibiner is my karibiner config 
 
 
-Homebrew Check | brew -v
+**Homebrew Check** | `brew -v`
 
-Homebrew Install | /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+**Homebrew Install** | `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
-Karibiner Install/Docs | https://karabiner-elements.pqrs.org
+**Karibiner Install/Docs** | https://karabiner-elements.pqrs.org
 
-Goku Install | brew install yqrashawn/goku/goku
+**Goku Install** | `brew install yqrashawn/goku/goku`
 
-Goku Tutoriol | https://github.com/yqrashawn/GokuRakuJoudo/blob/master/tutorial.md
+**Goku Tutoriol** | https://github.com/yqrashawn/GokuRakuJoudo/blob/master/tutorial.md
 
-Examples | https://github.com/search?l=edn&q=Karabiner.edn&type=Code
+**Examples** | https://github.com/search?l=edn&q=Karabiner.edn&type=Code
