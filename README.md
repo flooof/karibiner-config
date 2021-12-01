@@ -11,6 +11,8 @@ test.edn is stuff to help you get started
 karibiner is my karibiner config 
 
 
+Homebrew Check | brew -v
+
 Homebrew Install | /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 Karibiner Install/Docs | https://karabiner-elements.pqrs.org
