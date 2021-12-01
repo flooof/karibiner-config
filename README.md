@@ -4,11 +4,13 @@
 
 
 
-###### karbiner.edn is my goku config
+**karbiner.edn is my goku config**
 
-###### test.edn is stuff to help you get started
+**test.edn is stuff to help you get started**
 
-###### karibiner is my karibiner config 
+**karibiner is my karibiner config**
+
+## Installation
 
 
 **Homebrew Check** | `brew -v`
