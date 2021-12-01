@@ -8,16 +8,15 @@
 
 **test.edn is stuff to help you get started**
 
-**karibiner is my karibiner config**
+**karibiner.json is my karibiner config**
 
 ## Installation
 
+**Karibiner Install/Docs** | https://karabiner-elements.pqrs.org
 
 **Homebrew Check** | `brew -v`
 
 **Homebrew Install** | `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-
-**Karibiner Install/Docs** | https://karabiner-elements.pqrs.org
 
 **Goku Install** | `brew install yqrashawn/goku/goku`
 
